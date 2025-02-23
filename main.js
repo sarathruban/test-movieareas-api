@@ -11,6 +11,25 @@ app.get("/", (req, res) => {
   });
 });
 
+//CRUD functionality of movies
+
+//GET
+app.get("/movies", (req, res) => {
+    
+});
+
+//POST
+
+app.post("/movies", (req, res) => {});
+
+//PUT
+
+app.put("/movies/:id", (req, res) => {});
+
+//DELETE
+
+app.delete("/movies/:id", (req, res) => {});
+
 app.listen(port, () => {
   console.log(`Example app listening at http://localhost:${port}`);
 });
